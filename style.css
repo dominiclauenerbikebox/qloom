@@ -1,0 +1,123 @@
+
+ 
+
+
+
+ @media only screen and (max-width: 900px) {
+    body {
+
+      height: 100vh;
+      width: 100vw;
+    }
+ 
+    #image-div{
+        height: 60% !important;
+    
+      }
+      #image2{
+        position:relative;
+        top: -10%;
+      }
+      #container{
+        width: 90% !important;
+        height: 40% !important;
+      }
+      h1{
+        height: 50% !important;
+        margin: 0 0 0 0 !important;
+        margin-top: 5vh !important;
+      }
+      .button-4{
+        top: 8vh !important;
+      }
+ 
+      
+    
+  }
+
+  
+  #image-div{
+    height: 80vh;
+
+  }
+  #image2{
+    margin-top: -27vh;
+  }
+  #image{
+    height:100%;
+    width: 100%;
+    object-fit:cover;
+
+  }
+  html, body{
+    height: 100%;
+    width: 100%;
+  }
+
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;}
+  #container{
+    width:50vw;
+    height:100px;
+    margin:10px auto;
+  }
+  
+  
+  .button-4{
+    margin-top: -3vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    width:140px;
+    height:50px;
+    border:2px solid #393e40;
+    float:left;
+    text-align:center;
+    cursor:pointer;
+    position:relative;
+    box-sizing:border-box;
+    overflow:hidden;
+
+  }
+  .button-4 a{
+    font-family:arial;
+    font-size:16px;
+    color:#393e40;
+    text-decoration:none;
+    line-height:50px;
+    transition:all .5s ease;
+    z-index:2;
+    position:relative;
+  }
+  .eff-4{
+    width:140px;
+    height:50px;
+    left:-140px;
+    background:#393e40;
+    position:absolute;
+    transition:all .5s ease;
+    z-index:1;
+  }
+  .button-4:hover .eff-4{
+    left:0;
+  }
+  .button-4:hover a{
+    color:#fff;
+  }
+  
+  h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight:normal;
+    font-size:24px;
+    color:#393e40;
+    text-align:center;
+    margin:0 auto 40px 0;
+    margin-top: 2vh;
+  }
+  h1:first-letter{
+    
+    color:#e74c3c;
+    border-bottom:1px solid #e74c3c;
+  }
+  
