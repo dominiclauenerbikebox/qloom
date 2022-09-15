@@ -115,3 +115,9 @@
     margin:0 auto 40px 0;
     margin-top: 2vh;
   }
+  h1:first-letter{
+    
+    color:#000000;
+    border-bottom:1px solid #000000;
+  }
+  
